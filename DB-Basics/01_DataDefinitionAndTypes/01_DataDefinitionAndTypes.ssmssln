@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 14.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_DataDefinitionsAndTypes", "01_DataDefinitionsAndTypes", "{F942FF86-3D79-4665-B4B8-486400EF620A}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Lab", "Lab\Lab.ssmssqlproj", "{EE564B85-FE33-478D-A0B1-52577EB62CFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic CRUD", "Basic CRUD", "{F7BF0019-608E-49D3-9502-8253EB407E86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "exercises", "exercises", "{EDDD91C7-66A0-4722-AF03-229E51049EEF}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "01", "01\01.ssmssqlproj", "{F1923C9A-095E-46AD-83AA-62A3C909ADEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Built-In FUNCTIONS", "Built-In FUNCTIONS", "{294E9298-7AFF-41C5-873C-9A6A144830BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "exercises", "exercises", "{CA4D8633-D888-4557-8FFE-AADFF6FCC810}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Part01_QueriesforSoftUniDatabase", "Part01_QueriesforSoftUniDatabase\Part01_QueriesforSoftUniDatabase.ssmssqlproj", "{A4D7C9FA-AA0F-4E0E-AA8A-41DAA26BF47D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DATA AGGREGATION", "DATA AGGREGATION", "{4B3B0D4A-AD01-4753-A1D6-6CF7B39F1339}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "exersices", "exersices\exersices.ssmssqlproj", "{223512BB-7334-47F3-B271-F9729FE3084C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE564B85-FE33-478D-A0B1-52577EB62CFE}.Default|Default.ActiveCfg = Default
+		{F1923C9A-095E-46AD-83AA-62A3C909ADEB}.Default|Default.ActiveCfg = Default
+		{A4D7C9FA-AA0F-4E0E-AA8A-41DAA26BF47D}.Default|Default.ActiveCfg = Default
+		{D7DDABCD-F38A-4A1E-B5EF-26C5517FE59A}.Default|Default.ActiveCfg = Default
+		{223512BB-7334-47F3-B271-F9729FE3084C}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE564B85-FE33-478D-A0B1-52577EB62CFE} = {F942FF86-3D79-4665-B4B8-486400EF620A}
+		{EDDD91C7-66A0-4722-AF03-229E51049EEF} = {F7BF0019-608E-49D3-9502-8253EB407E86}
+		{F1923C9A-095E-46AD-83AA-62A3C909ADEB} = {EDDD91C7-66A0-4722-AF03-229E51049EEF}
+		{CA4D8633-D888-4557-8FFE-AADFF6FCC810} = {294E9298-7AFF-41C5-873C-9A6A144830BB}
+		{A4D7C9FA-AA0F-4E0E-AA8A-41DAA26BF47D} = {CA4D8633-D888-4557-8FFE-AADFF6FCC810}
+		{223512BB-7334-47F3-B271-F9729FE3084C} = {4B3B0D4A-AD01-4753-A1D6-6CF7B39F1339}
+	EndGlobalSection
+EndGlobal
