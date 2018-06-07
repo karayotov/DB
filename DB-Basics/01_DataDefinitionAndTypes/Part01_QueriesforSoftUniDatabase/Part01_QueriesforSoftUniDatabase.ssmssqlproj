@@ -3,7 +3,19 @@
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="THINKPAD-X220\SQLEXPRESS:THINKPAD-X220\karayotov">
+        <ConnectionNode Name="DESKTOP-UHHNPGM\SQLEXPRESS:DESKTOP-UHHNPGM\ThinkPad W500">
+          <Created>2018-06-05T14:18:12.6790889+03:00</Created>
+          <Type>SQL</Type>
+          <Server>DESKTOP-UHHNPGM\SQLEXPRESS</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="THINKPAD-X220\SQLEXPRESS:DESKTOP-UHHNPGM\ThinkPad W500">
           <Created>2018-06-01T13:46:37.4930179+03:00</Created>
           <Type>SQL</Type>
           <Server>THINKPAD-X220\SQLEXPRESS</Server>
@@ -20,8 +32,8 @@
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="SQLDiablo.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:THINKPAD-X220\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>THINKPAD-X220\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-UHHNPGM\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-UHHNPGM\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLDiablo.sql</FullPath>
         </FileNode>
