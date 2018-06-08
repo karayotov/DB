@@ -91,5 +91,19 @@ GROUP BY (
 	 WHERE [DepositStartDate] > '1985/01/01'
   GROUP BY [DepositGroup], [IsDepositExpired]
   ORDER BY [DepositGroup] DESC, [IsDepositExpired]		--11
+  
+
+  SELECT SUM(ResultTable.[Difference]) AS SumDifference
+  FROM 
+	(
+	SELECT DepositAmount - (
+							SELECT DepositAmount 
+							FROM WizzardDeposits 
+							WHERE Id = WizDeposits.Id + 1
+							) 
+	AS [Difference] 
+	FROM WizzardDeposits WizDeposits
+	) 
+  AS ResultTable										--12
 
 
