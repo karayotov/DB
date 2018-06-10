@@ -23,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DATA AGGREGATION", "DATA AG
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "exersices", "exersices\exersices.ssmssqlproj", "{223512BB-7334-47F3-B271-F9729FE3084C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TABLE RELATIONS", "TABLE RELATIONS", "{D7DF81DC-EDE2-4776-B2B2-D29C27C9A5F7}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "exercises", "exercises\exercises.ssmssqlproj", "{62BD1890-7199-44B7-B55A-185C82FAE352}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -31,8 +35,9 @@ Global
 		{EE564B85-FE33-478D-A0B1-52577EB62CFE}.Default|Default.ActiveCfg = Default
 		{F1923C9A-095E-46AD-83AA-62A3C909ADEB}.Default|Default.ActiveCfg = Default
 		{A4D7C9FA-AA0F-4E0E-AA8A-41DAA26BF47D}.Default|Default.ActiveCfg = Default
-		{D7DDABCD-F38A-4A1E-B5EF-26C5517FE59A}.Default|Default.ActiveCfg = Default
 		{223512BB-7334-47F3-B271-F9729FE3084C}.Default|Default.ActiveCfg = Default
+		{31D9CA7F-D14C-4B76-B91E-F71FFE63D523}.Default|Default.ActiveCfg = Default
+		{62BD1890-7199-44B7-B55A-185C82FAE352}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +49,6 @@ Global
 		{CA4D8633-D888-4557-8FFE-AADFF6FCC810} = {294E9298-7AFF-41C5-873C-9A6A144830BB}
 		{A4D7C9FA-AA0F-4E0E-AA8A-41DAA26BF47D} = {CA4D8633-D888-4557-8FFE-AADFF6FCC810}
 		{223512BB-7334-47F3-B271-F9729FE3084C} = {4B3B0D4A-AD01-4753-A1D6-6CF7B39F1339}
+		{62BD1890-7199-44B7-B55A-185C82FAE352} = {D7DF81DC-EDE2-4776-B2B2-D29C27C9A5F7}
 	EndGlobalSection
 EndGlobal
