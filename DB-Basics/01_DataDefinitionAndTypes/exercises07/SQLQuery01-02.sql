@@ -66,15 +66,67 @@ AS
 	GO
 -------------------------------------------------------------------06
 
-CREATE FUNCTION ufn_IsWordComprised(@setOfLetters VARCHAR(MAX), @word VARCHAR(MAX))
+CREATE OR ALTER FUNCTION ufn_IsWordComprised(@setOfLetters VARCHAR(MAX), @word VARCHAR(MAX))
 RETURNS BIT
-AS
 	BEGIN
-		DECLARE @characterCounter INT = 0;
-		DECLARE @loopCounter INT = @setOfLetters
+		DECLARE @index INT = 1;
+		DECLARE @currentChar CHAR(1)
+		DECLARE @isComprised INT
 		
-		WHILE (@loopCounter - 1) != 0
+		WHILE (@index <= LEN(@word))
 		BEGIN
+			SET @currentChar = SUBSTRING(@word, @index, 1)
+			SET @isComprised = CHARINDEX(@currentChar, @setOfLetters)
+
+			IF (@isComprised = 0)
+			BEGIN
+				RETURN 0
+			END
 			
+			SET @index += 1
 		END
+
+		RETURN 1
 	END
+	GO
+----------------------------------------------------------------------07
+
+
+CREATE PROC
+
+	DELETE FROM EmployeesProjects
+	WHERE EmployeeID IN 
+	(
+		SELECT EmployeeID
+			FROM Employees
+			WHERE DepartmentID = 1
+	)
+
+	ALTER TABLE Departments
+	ALTER COLUMN ManagerID INT
+
+	UPDATE Employees
+		SET ManagerID = NULL
+		WHERE ManagerID IN 
+		(
+			SELECT EmployeeID
+				FROM Employees
+				WHERE DepartmentID = 1
+		)
+	UPDATE Departments
+		SET ManagerID = NULL
+		WHERE ManagerID IN 
+		(
+			SELECT EmployeeID
+				FROM Employees
+				WHERE DepartmentID = 1
+		)
+	DELETE 
+		FROM Employees
+		WHERE DepartmentID = 1
+
+	DELETE
+		FROM  Departments
+		WHERE DepartmentID = 1
+
+ROLLBACK TRAN
