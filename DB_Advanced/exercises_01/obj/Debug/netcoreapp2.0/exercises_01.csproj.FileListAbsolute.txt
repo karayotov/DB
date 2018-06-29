@@ -1,0 +1,11 @@
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\exercises_01\bin\Debug\netcoreapp2.0\exercises_01.deps.json
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\exercises_01\bin\Debug\netcoreapp2.0\exercises_01.runtimeconfig.json
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\exercises_01\bin\Debug\netcoreapp2.0\exercises_01.runtimeconfig.dev.json
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\exercises_01\bin\Debug\netcoreapp2.0\exercises_01.dll
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\exercises_01\obj\Debug\netcoreapp2.0\exercises_01.csprojResolveAssemblyReference.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\exercises_01\obj\Debug\netcoreapp2.0\exercises_01.csproj.CoreCompileInputs.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\exercises_01\obj\Debug\netcoreapp2.0\exercises_01.AssemblyInfoInputs.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\exercises_01\obj\Debug\netcoreapp2.0\exercises_01.AssemblyInfo.cs
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\exercises_01\bin\Debug\netcoreapp2.0\exercises_01.pdb
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\exercises_01\obj\Debug\netcoreapp2.0\exercises_01.dll
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\exercises_01\obj\Debug\netcoreapp2.0\exercises_01.pdb

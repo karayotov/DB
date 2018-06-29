@@ -92,14 +92,14 @@ RETURNS BIT
 ----------------------------------------------------------------------07
 
 
-CREATE PROC
-
+CREATE PROC usp_DeleteEmployeesFromDepartment (@departmentID INT) AS
+BEGIN
 	DELETE FROM EmployeesProjects
 	WHERE EmployeeID IN 
 	(
 		SELECT EmployeeID
 			FROM Employees
-			WHERE DepartmentID = 1
+			WHERE DepartmentID = @departmentID
 	)
 
 	ALTER TABLE Departments
@@ -111,7 +111,7 @@ CREATE PROC
 		(
 			SELECT EmployeeID
 				FROM Employees
-				WHERE DepartmentID = 1
+				WHERE DepartmentID = @departmentID
 		)
 	UPDATE Departments
 		SET ManagerID = NULL
@@ -119,14 +119,20 @@ CREATE PROC
 		(
 			SELECT EmployeeID
 				FROM Employees
-				WHERE DepartmentID = 1
+				WHERE DepartmentID = @departmentID
 		)
 	DELETE 
 		FROM Employees
-		WHERE DepartmentID = 1
+		WHERE DepartmentID = @departmentID
 
 	DELETE
 		FROM  Departments
-		WHERE DepartmentID = 1
+		WHERE DepartmentID = @departmentID
+	SELECT COUNT(*)
+		FROM Employees
+		WHERE DepartmentID = @departmentID
+  
+END
 
-ROLLBACK TRAN
+-----------------------------------------------------------------08
+

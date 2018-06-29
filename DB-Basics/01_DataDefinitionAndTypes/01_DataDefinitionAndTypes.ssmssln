@@ -35,6 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 FUNCTIONS AND PROCEDURES
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "exercises07", "exercises07\exercises07.ssmssqlproj", "{77A9826C-F620-4901-8583-46B56F57033D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 Exams", "08 Exams", "{30DFAF65-2740-499D-9820-92A0EF8F7840}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Exam_-_22_October_2017", "Exam_-_22_October_2017\Exam_-_22_October_2017.ssmssqlproj", "{F777D77C-5A0E-4570-8516-BF69D102C868}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -46,8 +50,9 @@ Global
 		{223512BB-7334-47F3-B271-F9729FE3084C}.Default|Default.ActiveCfg = Default
 		{62BD1890-7199-44B7-B55A-185C82FAE352}.Default|Default.ActiveCfg = Default
 		{A14D258D-31F9-4EF4-91FC-37E19AABBA8F}.Default|Default.ActiveCfg = Default
-		{012665EA-C7B7-4C24-8E71-3608319799D7}.Default|Default.ActiveCfg = Default
 		{77A9826C-F620-4901-8583-46B56F57033D}.Default|Default.ActiveCfg = Default
+		{BAF7BDB8-C0EB-473B-B5E9-1ED6B0EBC298}.Default|Default.ActiveCfg = Default
+		{F777D77C-5A0E-4570-8516-BF69D102C868}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,5 +67,6 @@ Global
 		{62BD1890-7199-44B7-B55A-185C82FAE352} = {D7DF81DC-EDE2-4776-B2B2-D29C27C9A5F7}
 		{A14D258D-31F9-4EF4-91FC-37E19AABBA8F} = {1BBBC398-83DA-46AC-B733-9273353CD464}
 		{77A9826C-F620-4901-8583-46B56F57033D} = {327CFE6C-CDEF-4087-91B1-0A2C10A4BC23}
+		{F777D77C-5A0E-4570-8516-BF69D102C868} = {30DFAF65-2740-499D-9820-92A0EF8F7840}
 	EndGlobalSection
 EndGlobal

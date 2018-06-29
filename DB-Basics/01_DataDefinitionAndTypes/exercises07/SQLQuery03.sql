@@ -1,3 +1,0 @@
-USE Geography
-GO
-
