@@ -3,9 +3,10 @@
 //namespace P02_DatabaseFirst
 //{
 //    using Data;
+//    using System.Collections.Generic;
 //    using System.Linq;
 
-//    public class StartUp_03
+//    public class StartUp_04
 //    {
 //        static void Main(string[] args)
 //        {
@@ -13,17 +14,17 @@
 
 //            using (dbContext)
 //            {
-//                var employees = dbContext
+//                List<string> employeesNames = dbContext
 //                    .Employees
-//                    .OrderBy(e => e.EmployeeId)
+//                    .Where(e => e.Salary > 50000)
+//                    .Select(e => e.FirstName)
+//                    .OrderBy(e => e)
 //                    .ToList();
 
-//                foreach (var employee in employees)
+//                foreach (string employee in employeesNames)
 //                {
-//                    Console.WriteLine(employee.ToString());
+//                    Console.WriteLine(employee);
 //                }
-
-//                //employees.ForEach(x => Console.WriteLine($"{x.FirstName} {x.LastName} {x.MiddleName} {x.JobTitle} {x.Salary:f2}"));
 //            }
 //        }
 //    }

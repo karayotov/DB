@@ -58,7 +58,7 @@ namespace P02_DatabaseFirst.Data
                     .HasConstraintName("FK_Addresses_Towns");
             });
 
-            modelBuilder.Entity<Department>(entity =>
+            modelBuilder.Entity<Department>((Action<Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Department>>)((Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Department> entity) =>
             {
                 entity.HasKey(e => e.DepartmentId);
 
@@ -72,13 +72,13 @@ namespace P02_DatabaseFirst.Data
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.Manager)
-                    .WithMany(p => p.Departments)
+                    .WithMany((System.Linq.Expressions.Expression<Func<Employee, System.Collections.Generic.IEnumerable<Department>>>)(p => (System.Collections.Generic.IEnumerable<Department>)p.Department))
                     .HasForeignKey(d => d.ManagerId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Departments_Employees");
-            });
+            }));
 
-            modelBuilder.Entity<Employee>(entity =>
+            modelBuilder.Entity<Employee>((Action<Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Employee>>)((Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Employee> entity) =>
             {
                 entity.HasKey(e => e.EmployeeId);
 
@@ -118,7 +118,7 @@ namespace P02_DatabaseFirst.Data
                     .HasForeignKey(d => d.AddressId)
                     .HasConstraintName("FK_Employees_Addresses");
 
-                entity.HasOne(d => d.Department)
+                entity.HasOne((System.Linq.Expressions.Expression<Func<Employee, Department>>)(d => (Department)d.Department))
                     .WithMany(p => p.Employees)
                     .HasForeignKey(d => d.DepartmentId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
@@ -128,7 +128,7 @@ namespace P02_DatabaseFirst.Data
                     .WithMany(p => p.InverseManager)
                     .HasForeignKey(d => d.ManagerId)
                     .HasConstraintName("FK_Employees_Employees");
-            });
+            }));
 
             modelBuilder.Entity<EmployeeProject>(entity =>
             {
