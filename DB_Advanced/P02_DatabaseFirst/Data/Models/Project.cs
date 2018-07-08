@@ -7,7 +7,7 @@ namespace P02_DatabaseFirst.Data.Models
     {
         public Project()
         {
-            EmployeeProjects = new HashSet<EmployeeProject>();
+            EmployeesProjects = new HashSet<EmployeeProject>();
         }
 
         public int ProjectId { get; set; }
@@ -16,6 +16,6 @@ namespace P02_DatabaseFirst.Data.Models
         public DateTime StartDate { get; set; }
         public DateTime? EndDate { get; set; }
 
-        public ICollection<EmployeeProject> EmployeeProjects { get; set; }
+        public ICollection<EmployeeProject> EmployeesProjects { get; set; }
     }
 }

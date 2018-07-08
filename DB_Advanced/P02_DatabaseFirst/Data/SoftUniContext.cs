@@ -6,31 +6,24 @@
     public partial class SoftUniContext : DbContext
     {
         public SoftUniContext()
-        {
-        }
+        { }
 
         public SoftUniContext(DbContextOptions options)
-            : base(options)
-        {
-        }
+            : base(options) { }
 
         public virtual DbSet<Address> Addresses { get; set; }
-
         public virtual DbSet<Department> Departments { get; set; }
-
         public virtual DbSet<Employee> Employees { get; set; }
-
         public virtual DbSet<EmployeeProject> EmployeesProjects { get; set; }
-
         public virtual DbSet<Project> Projects { get; set; }
-
         public virtual DbSet<Town> Towns { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(DbConfiguration.ConnectionString);
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+                optionsBuilder.UseSqlServer("Server=DESKTOP-UHHNPGM\\SQLEXPRESS;Database=SoftUni;Integrated Security=True;");
             }
         }
 
@@ -122,7 +115,7 @@
                     .HasConstraintName("FK_Employees_Departments");
 
                 entity.HasOne(d => d.Manager)
-                    .WithMany(p => p.ManagedEmployees)
+                    .WithMany(p => p.InverseManager)
                     .HasForeignKey(d => d.ManagerId)
                     .HasConstraintName("FK_Employees_Employees");
             });
@@ -136,7 +129,7 @@
                 entity.Property(e => e.ProjectId).HasColumnName("ProjectID");
 
                 entity.HasOne(d => d.Employee)
-                    .WithMany(p => p.EmployeeProjects)
+                    .WithMany(p => p.EmployeesProjects)
                     .HasForeignKey(d => d.EmployeeId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_EmployeesProjects_Employees");

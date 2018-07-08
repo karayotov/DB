@@ -11,28 +11,19 @@ namespace P02_DatabaseFirst
         static void Main(string[] args)
         {
             SoftUniContext dbContext = new SoftUniContext();
-
+            string department = "Research and Development";
             using (dbContext)
             {
-                var employees = dbContext
-                    .Employees
-                    .Where(e => e.Department.Name == "Research and Development")
-                    .Select(x => new
-                    {
-                        x.FirstName,
-                        x.LastName,
-                        DepartmentName = x.DepartmentId,
-                        x.Salary
 
-                    })
+
+
+                Console.WriteLine(string.Join(Environment.NewLine, dbContext
+                    .Employees
+                    .Where(e => e.Department.Name.Equals(department, StringComparison.OrdinalIgnoreCase))
                     .OrderBy(e => e.Salary)
                     .ThenByDescending(e => e.FirstName)
-                    .ToList();
+                    .Select(e => $"{e.FirstName} {e.LastName} from {department} - ${e.Salary:F2}")));
 
-                foreach (var e in employees)
-                {
-                    Console.WriteLine($"{e.FirstName} {e.LastName} from {e.DepartmentName} - ${e.Salary:f2}");
-                }
             }
         }
     }

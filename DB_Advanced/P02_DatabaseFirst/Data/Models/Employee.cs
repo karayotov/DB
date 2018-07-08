@@ -8,7 +8,7 @@ namespace P02_DatabaseFirst.Data.Models
         public Employee()
         {
             Departments = new HashSet<Department>();
-            EmployeeProjects = new HashSet<EmployeeProject>();
+            EmployeesProjects = new HashSet<EmployeeProject>();
             InverseManager = new HashSet<Employee>();
         }
 
@@ -27,13 +27,7 @@ namespace P02_DatabaseFirst.Data.Models
         public Department Department { get; set; }
         public Employee Manager { get; set; }
         public ICollection<Department> Departments { get; set; }
-        public ICollection<EmployeeProject> EmployeeProjects { get; set; }
+        public ICollection<EmployeeProject> EmployeesProjects { get; set; }
         public ICollection<Employee> InverseManager { get; set; }
-
-
-        public override string ToString()
-        {
-            return $"{this.FirstName} {this.LastName} {this.MiddleName} {this.JobTitle} {this.Salary:f2}";
-        }
     }
 }
