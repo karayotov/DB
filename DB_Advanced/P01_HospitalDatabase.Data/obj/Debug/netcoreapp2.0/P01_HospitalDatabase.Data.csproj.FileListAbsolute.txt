@@ -1,0 +1,14 @@
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.deps.json
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.runtimeconfig.json
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.runtimeconfig.dev.json
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.dll
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.pdb
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.Models.dll
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.Models.pdb
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.csprojResolveAssemblyReference.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.csproj.CoreCompileInputs.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.AssemblyInfoInputs.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.AssemblyInfo.cs
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.csproj.CopyComplete
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.dll
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.pdb

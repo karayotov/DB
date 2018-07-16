@@ -1,0 +1,9 @@
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data.Models\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.Models.deps.json
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data.Models\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.Models.dll
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data.Models\bin\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.Models.pdb
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.Models.csprojResolveAssemblyReference.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.Models.AssemblyInfoInputs.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.Models.AssemblyInfo.cs
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.Models.dll
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P01_HospitalDatabase.Data.Models\obj\Debug\netcoreapp2.0\P01_HospitalDatabase.Data.Models.pdb

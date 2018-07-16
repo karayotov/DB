@@ -1,0 +1,14 @@
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase.Data\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.deps.json
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase.Data\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.runtimeconfig.json
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase.Data\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.runtimeconfig.dev.json
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase.Data\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.dll
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase.Data\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.pdb
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase.Data\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.Models.dll
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase.Data\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.Models.pdb
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase.Data\obj\Debug\netcoreapp2.0\P03_SalesDatabase.Data.csprojResolveAssemblyReference.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase.Data\obj\Debug\netcoreapp2.0\P03_SalesDatabase.Data.csproj.CoreCompileInputs.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase.Data\obj\Debug\netcoreapp2.0\P03_SalesDatabase.Data.AssemblyInfoInputs.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase.Data\obj\Debug\netcoreapp2.0\P03_SalesDatabase.Data.AssemblyInfo.cs
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase.Data\obj\Debug\netcoreapp2.0\P03_SalesDatabase.Data.csproj.CopyComplete
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase.Data\obj\Debug\netcoreapp2.0\P03_SalesDatabase.Data.dll
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase.Data\obj\Debug\netcoreapp2.0\P03_SalesDatabase.Data.pdb

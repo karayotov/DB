@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180710113027_Initial.cs" />
+    <Compile Remove="Migrations\20180710113830_vtora.cs" />
+    <Compile Remove="Migrations\20180710114836_third.cs" />
+    <Compile Remove="Migrations\20180712143016_AddDoctors.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="microsoft.entityFrameworkCore.sqlserver" Version="2.1.1" />
+    <PackageReference Include="microsoft.entityFrameworkCore.Tools" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P01_HospitalDatabase.Data.Models\P01_HospitalDatabase.Data.Models.csproj" />
+  </ItemGroup>
+
+</Project>

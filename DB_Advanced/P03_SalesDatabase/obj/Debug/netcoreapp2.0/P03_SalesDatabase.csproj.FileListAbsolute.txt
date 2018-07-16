@@ -1,0 +1,16 @@
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.deps.json
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.runtimeconfig.json
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.runtimeconfig.dev.json
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.dll
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.pdb
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.dll
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.Models.dll
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.pdb
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\bin\Debug\netcoreapp2.0\P03_SalesDatabase.Data.Models.pdb
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.csprojResolveAssemblyReference.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.csproj.CoreCompileInputs.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.AssemblyInfoInputs.cache
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.AssemblyInfo.cs
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.csproj.CopyComplete
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.dll
+C:\Users\ThinkPad W500\Documents\GitHub\DB\DB_Advanced\P03_SalesDatabase\obj\Debug\netcoreapp2.0\P03_SalesDatabase.pdb
